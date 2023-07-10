@@ -31,6 +31,63 @@ const Home = () => {
           </a>
         </article>
       </section>
+
+      <section className="w-5/6 mx-auto">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="text-3xl font-semibold">The latest from Ableton</h2>
+          <a
+            href="#"
+            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+          >
+            See all posts <IoIosArrowForward />
+          </a>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <a href="#">
+            <article>
+              <img
+                src="/img/thumb_419_Andri_Soren.jpg.600x340_q85_crop_upscale.jpg"
+                alt="Tutorial image"
+              />
+              <span className="mt-2 mb-1 p-1 inline-block text-sm font-medium bg-ableton-00ffff">
+                Tutorials
+              </span>
+              <h3 className="font-semibold">
+                Contours of Expression – Andri Søren on Push
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/thumb_418_Water_From_Your_Eyes2.jpg.600x340_q85_crop_upscale.jpg"
+                alt="Artists image"
+              />
+              <span className="mt-2 mb-1 p-1 inline-block text-sm font-medium bg-ableton-fed134">
+                Artists
+              </span>
+              <h3 className="font-semibold">
+                Water From Your Eyes: Microtonal Indie-Pop
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/thumb_416_Tutorial_Improved_Audio.jpg.600x340_q85_crop_upscale.jpg"
+                alt="Tutorial image"
+              />
+              <span className="mt-2 mb-1 p-1 inline-block text-sm font-medium bg-ableton-00ffff">
+                Tutorials
+              </span>
+              <h3 className="font-semibold">
+                Good Timing – Beatmaking with Auto-Warp in Live 11.3
+              </h3>
+            </article>
+          </a>
+        </div>
+      </section>
     </main>
   );
 };

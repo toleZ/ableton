@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <div className="bg-[#f3f3f3]">
-      <div className="max-w-[1600px] mx-auto bg-white">
+      <div className="max-w-[1600px] mx-auto bg-white font-futura-pt">
         <Navbar />
         <BrowserRouter>
           <Routes>

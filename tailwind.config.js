@@ -13,6 +13,7 @@ export default {
           "0000ff": "#0000ff",
           fdf900: "#fdf900",
           "00ffff": "#00ffff",
+          fed134: "#fed134",
         },
       },
       fontFamily: {
