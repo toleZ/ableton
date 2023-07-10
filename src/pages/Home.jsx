@@ -88,6 +88,51 @@ const Home = () => {
           </a>
         </div>
       </section>
+
+      <section className="mt-12 w-5/6 mx-auto">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="text-3xl font-semibold">Expand Live with Packs</h2>
+          <a
+            href="#"
+            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+          >
+            Discover more <IoIosArrowForward />
+          </a>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <a href="#">
+            <article>
+              <img src="/img/NL_Spitfire_Choir.avif" alt="Spitfire" />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Expessive Choir by Spitfire Audio <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/thumb_418_Water_From_Your_Eyes2.jpg.600x340_q85_crop_upscale.jpg"
+                alt="Artists image"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Building Max Devices by Ableton <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/thumb_416_Tutorial_Improved_Audio.jpg.600x340_q85_crop_upscale.jpg"
+                alt="Tutorial image"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                SPAT Bundle by Music Unit <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+        </div>
+      </section>
     </main>
   );
 };
