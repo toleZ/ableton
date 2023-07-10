@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <main>
       <section
-        className="font-semibold h-[calc(100vh-6rem)]
+        className="font-semibold md:h-[calc(75vh-6rem)] lg:h-[calc(100vh-6rem)]
       overflow-hidden"
       >
-        <article className="w-[60vw] max-w-[900px] h-[40vw] max-h-[600px] p-12 bg-[url('/img/403_Product_Takeover2_2BftvZt.avif')] bg-cover bg-no-repeat bg-center text-ableton-fdf900">
+        <article className="w-full md:w-[60vw] max-w-[900px] h-[40vh] md:h-[40vw] max-h-[600px] p-12 bg-[url('/img/403_Product_Takeover2_2BftvZt.avif')] bg-cover bg-no-repeat bg-center text-ableton-fdf900">
           <a href="#">
             <h2 className="text-4xl lg:text-5xl lg:mb-4">
               Your computer is your instrument
@@ -17,7 +17,7 @@ const Home = () => {
             </p>
           </a>
         </article>
-        <article className="translate-x-[215%] -translate-y-full w-[33vw] lg:w-[27vw] h-[20vh] lg:h-[32vh] p-6 bg-[url('/img/Note.avif')] bg-cover bg-no-repeat bg-center text-ableton-00ffff">
+        <article className="mt-8 md:m-0 translate-x-1/4 md:translate-x-[215%] md:-translate-y-full w-5/6 md:w-[33vw] lg:w-[27vw] h-[32vh] p-6 bg-[url('/img/Note.avif')] bg-cover bg-no-repeat bg-center text-ableton-00ffff">
           <a href="#">
             <h2 className="text-base lg:text-3xl">Make new ideas a habit</h2>
             <p className="flex items-center gap-1 text-base lg:text-xl underline">
@@ -25,7 +25,7 @@ const Home = () => {
             </p>
           </a>
         </article>
-        <article className="translate-x-[125%] -translate-y-[125%] w-[33vw] lg:w-[27vw] h-[20vh] lg:h-[32vh] p-6 bg-[url('/img/Push-opt2.avif')] bg-cover bg-no-repeat bg-center text-ableton-00ffff">
+        <article className="md:translate-x-[125%] md:-translate-y-[125%] w-5/6 md:w-[33vw] lg:w-[27vw] h-[32vh] p-6 bg-[url('/img/Push-opt2.avif')] bg-cover bg-no-repeat bg-center text-ableton-00ffff">
           <a href="#">
             <h2 className="text-base lg:text-3xl">Focus and feel</h2>
             <p className="flex items-center gap-1 text-base lg:text-xl underline">
