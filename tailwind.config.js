@@ -11,6 +11,8 @@ export default {
           d5b3ff: "#d5b3ff",
           b6ffc0: "#b6ffc0",
           "0000ff": "#0000ff",
+          fdf900: "#fdf900",
+          "00ffff": "#00ffff",
         },
       },
       fontFamily: {
