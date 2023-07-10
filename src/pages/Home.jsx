@@ -3,7 +3,10 @@ import { IoIosArrowForward } from "react-icons/io";
 const Home = () => {
   return (
     <main>
-      <section className="font-semibold">
+      <section
+        className="font-semibold h-[calc(100vh-6rem)]
+      overflow-hidden"
+      >
         <article className="w-[60vw] max-w-[900px] h-[40vw] max-h-[600px] p-12 bg-[url('/img/403_Product_Takeover2_2BftvZt.avif')] bg-cover bg-no-repeat bg-center text-ableton-fdf900">
           <a href="#">
             <h2 className="text-4xl lg:text-5xl lg:mb-4">
@@ -32,7 +35,7 @@ const Home = () => {
         </article>
       </section>
 
-      <section className="w-5/6 mx-auto">
+      <section className="w-5/6 mx-auto mt-20">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-3xl font-semibold">The latest from Ableton</h2>
           <a
