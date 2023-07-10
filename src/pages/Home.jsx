@@ -169,6 +169,54 @@ const Home = () => {
           </a>
         </div>
       </section>
+
+      <section className="mt-12 w-5/6 mx-auto">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="text-3xl font-semibold">
+            One Thing videos: monthly creative tips
+          </h2>
+          <a
+            href="#"
+            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+          >
+            See all videos <IoIosArrowForward />
+          </a>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <a href="#">
+            <article>
+              <img src="/img/One_Thine_Arbour_Title.avif" alt="Spitfire" />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Recording the speaker
+                <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/One_Thing_Whitemary_Title.avif"
+                alt="Artists image"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Sidechaining Auto Filter <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/One_Thing_H_Lite_Title.avif"
+                alt="Tutorial image"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Scrubbing for variations <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+        </div>
+      </section>
     </main>
   );
 };
