@@ -122,10 +122,7 @@ const Home = () => {
           </a>
           <a href="#">
             <article>
-              <img
-                src="/img/thumb_416_Tutorial_Improved_Audio.jpg.600x340_q85_crop_upscale.jpg"
-                alt="Tutorial image"
-              />
+              <img src="/img/BL_SPAT_Devices.avif" alt="Tutorial image" />
               <h3 className="mt-2 font-semibold flex items-center gap-1">
                 SPAT Bundle by Music Unit <IoIosArrowForward />
               </h3>
