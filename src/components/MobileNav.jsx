@@ -35,7 +35,7 @@ const MobileNav = () => {
       </nav>
 
       <div
-        className={`md:hidden w-screen z-10 absolute top-0 left-0 grid gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
+        className={`md:hidden w-screen overflow-hidden absolute top-0 left-0 flex flex-col gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
           isHidden ? "-translate-y-full" : "translate-y-0"
         } transition-all duration-300`}
       >
@@ -100,31 +100,31 @@ const MobileNav = () => {
         </section>
 
         <section className="mt-2">
-          <h4 className="text-xl mb-2">More from Ableton:</h4>
-          <div className="flex">
-            <article className="text-sm font-normal">
-              <h5>Loop</h5>
+          <h4 className="text-xl mb-3">More from Ableton:</h4>
+          <div className="mb-5 w-full flex gap-4 overflow-x-scroll text-sm font-normal">
+            <article>
+              <h5 className="w-48">Loop</h5>
               <p>
                 {
                   "Watch Talks, Performances and Features from Ableton's Summit for Music Makers"
                 }
               </p>
             </article>
-            <article className="text-sm font-normal">
-              <h5>Learning Music</h5>
+            <article>
+              <h5 className="w-48">Learning Music</h5>
               <p>
                 Learn the fundamentals of music making right in your browser.
               </p>
             </article>
-            <article className="text-sm font-normal">
-              <h5>Learning Synths</h5>
+            <article>
+              <h5 className="w-48">Learning Synths</h5>
               <p>
                 Get started with synthesis using a web-based synth and
                 accompanying lessons.
               </p>
             </article>
-            <article className="text-sm font-normal">
-              <h5>Making Music</h5>
+            <article>
+              <h5 className="w-48">Making Music</h5>
               <p>
                 Some tips from 74 Creative Strategies for Electronic Producers.
               </p>
