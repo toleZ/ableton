@@ -133,6 +133,45 @@ const Home = () => {
           </a>
         </div>
       </section>
+
+      <section className="mt-12 w-5/6 mx-auto">
+        <div className="mb-6">
+          <h2 className="text-3xl font-semibold">Develop your music-making</h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <a href="#">
+            <article>
+              <img
+                src="/img/Screenshot_2023-04-11_at_12.20.55.avif"
+                alt="Spitfire"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Learn the foundations of music <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img src="/img/403_Product_Takeover5.avif" alt="Artists image" />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Get started with Live <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+          <a href="#">
+            <article>
+              <img
+                src="/img/Screenshot_2023-04-11_at_12.22.04.avif"
+                alt="Tutorial image"
+              />
+              <h3 className="mt-2 font-semibold flex items-center gap-1">
+                Go further with Live and Push tutorials <IoIosArrowForward />
+              </h3>
+            </article>
+          </a>
+        </div>
+      </section>
     </main>
   );
 };
