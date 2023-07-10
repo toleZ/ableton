@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
             <Route path="*" element={<h1>Not found</h1>} />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </div>
     </div>
   );

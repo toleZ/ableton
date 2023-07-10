@@ -15,6 +15,12 @@ export default {
           "00ffff": "#00ffff",
           fed134: "#fed134",
         },
+        brands: {
+          facebook: "#3477f2",
+          twitter: "#1da1f2",
+          youtube: "#ff001d",
+          instagram: "#f77737",
+        },
       },
       fontFamily: {
         "futura-pt": [

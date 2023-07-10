@@ -112,7 +112,7 @@ const Home = () => {
           <a href="#">
             <article>
               <img
-                src="/img/thumb_418_Water_From_Your_Eyes2.jpg.600x340_q85_crop_upscale.jpg"
+                src="/img/TN_Building_Max_Devices.avif"
                 alt="Artists image"
               />
               <h3 className="mt-2 font-semibold flex items-center gap-1">
