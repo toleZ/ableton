@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="mt-12">
       <div className="py-8 px-4 flex items-center justify-center gap-2 bg-[#eeeeee] text-xl font-medium">
-        More:
-        <ul className="flex items-start gap-2 text-ableton-0000ff">
+        <ul className="flex flex-wrap items-start gap-2 text-ableton-0000ff">
+          <li className="text-black">More:</li>
           <li>
             <a href="#">All posts</a>
           </li>
@@ -34,11 +34,11 @@ const Footer = () => {
         </ul>
       </div>
 
-      <h3 className="pt-16 pl-16 font-semibold text-4xl lg:text-6xl">
+      <h3 className="pt-8 pl-8 md:pt-16 md:pl-16 font-semibold text-4xl lg:text-6xl">
         Ableton
       </h3>
 
-      <div className="p-16 grid lg:grid-cols-3 gap-8">
+      <div className="p-8 md:p-16 grid lg:grid-cols-3 gap-8">
         <div className="lg:order-3">
           <h5 className="font-medium">Sign up to our newsletter</h5>
           <p className="text-lg">
@@ -50,7 +50,7 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Email Address"
-              className="w-5/6 p-2 outline-none bg-[#eeeeee]"
+              className="w-[65%] p-2 outline-none bg-[#eeeeee]"
             />
             <button className="px-6 lg:px-2 py-2 font-medium text-white bg-ableton-0000ff">
               Sign up
@@ -143,7 +143,7 @@ const Footer = () => {
         </section>
       </div>
 
-      <div className="px-16 flex flex-col lg:flex-row lg:items-center lg:justify-between">
+      <div className="px-8 md:px-16 flex flex-col lg:flex-row lg:items-center lg:justify-between">
         <ul className="mb-12 flex flex-col lg:flex-row lg:items-center gap-2 font-medium">
           <li>Contact Us</li>
           <li>Press Resources</li>

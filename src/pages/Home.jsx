@@ -40,7 +40,7 @@ const Home = () => {
           <h2 className="text-3xl font-semibold">The latest from Ableton</h2>
           <a
             href="#"
-            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+            className="hidden md:flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
           >
             See all posts <IoIosArrowForward />
           </a>
@@ -90,6 +90,12 @@ const Home = () => {
             </article>
           </a>
         </div>
+        <a
+          href="#"
+          className="flex md:hidden items-center justify-center mt-8 md:m-0 gap-1 text-xl font-medium text-ableton-0000ff"
+        >
+          See all posts <IoIosArrowForward />
+        </a>
       </section>
 
       <section className="mt-12 w-5/6 mx-auto">
@@ -97,7 +103,7 @@ const Home = () => {
           <h2 className="text-3xl font-semibold">Expand Live with Packs</h2>
           <a
             href="#"
-            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+            className="hidden md:flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
           >
             Discover more <IoIosArrowForward />
           </a>
@@ -132,6 +138,12 @@ const Home = () => {
             </article>
           </a>
         </div>
+        <a
+          href="#"
+          className="flex md:hidden items-center justify-center mt-8 md:m-0 gap-1 text-xl font-medium text-ableton-0000ff"
+        >
+          Discover more <IoIosArrowForward />
+        </a>
       </section>
 
       <section className="mt-12 w-5/6 mx-auto">
@@ -180,7 +192,7 @@ const Home = () => {
           </h2>
           <a
             href="#"
-            className="flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
+            className="hidden md:flex items-center gap-1 text-xl font-medium text-ableton-0000ff"
           >
             See all videos <IoIosArrowForward />
           </a>
@@ -219,6 +231,13 @@ const Home = () => {
             </article>
           </a>
         </div>
+
+        <a
+          href="#"
+          className="flex md:hidden items-center justify-center mt-8 md:m-0 gap-1 text-xl font-medium text-ableton-0000ff"
+        >
+          See all videos <IoIosArrowForward />
+        </a>
       </section>
     </main>
   );
