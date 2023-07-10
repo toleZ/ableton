@@ -1,6 +1,6 @@
 const DefaultNav = () => {
   return (
-    <nav className="p-8 hidden md:flex items-center justify-between font-futura-pt font-medium text-xl">
+    <nav className="p-8 hidden lg:flex items-center justify-between font-futura-pt font-medium text-xl">
       <div className="flex items-center gap-8">
         <a href="#">
           <svg

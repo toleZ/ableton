@@ -8,7 +8,7 @@ const MobileNav = () => {
   return (
     <>
       <nav
-        className={`relative z-50 p-6 flex md:hidden items-center gap-6  font-futura-pt font-semibold text-xl ${
+        className={`relative z-50 p-6 flex lg:hidden items-center gap-6  font-futura-pt font-semibold text-xl ${
           isHidden ? "text-black fill-black" : "text-white fill-white"
         } transition-all duration-150`}
       >
@@ -35,7 +35,7 @@ const MobileNav = () => {
       </nav>
 
       <div
-        className={`md:hidden w-screen overflow-hidden absolute top-0 left-0 flex flex-col gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
+        className={`lg:hidden w-screen overflow-hidden absolute top-0 left-0 flex flex-col gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
           isHidden ? "-translate-y-full" : "translate-y-0"
         } transition-all duration-300`}
       >
