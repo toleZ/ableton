@@ -35,7 +35,7 @@ const MobileNav = () => {
       </nav>
 
       <div
-        className={`lg:hidden w-screen overflow-hidden absolute top-0 left-0 flex flex-col gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
+        className={`lg:hidden w-screen overflow-hidden absolute z-40 top-0 left-0 flex flex-col gap-6 p-6 pt-[5rem] text-lg font-semibold bg-ableton-0000ff text-white ${
           isHidden ? "-translate-y-full" : "translate-y-0"
         } transition-all duration-300`}
       >
@@ -101,7 +101,7 @@ const MobileNav = () => {
 
         <section className="mt-2">
           <h4 className="text-xl mb-3">More from Ableton:</h4>
-          <div className="mb-5 w-full flex gap-4 overflow-x-scroll text-sm font-normal">
+          <div className="mb-5 w-full flex gap-4 overflow-x-auto text-sm font-normal">
             <article>
               <h5 className="w-48">Loop</h5>
               <p>
